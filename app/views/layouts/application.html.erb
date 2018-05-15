@@ -10,6 +10,17 @@
   </head>
 
   <body>
+    <div class="navbar-wagon">
+        <!-- Logo -->
+      <a href="/" class="navbar-wagon-brand">
+        <h1>Wikify</h1>
+      </a>
+
+        <!-- Right Navigation -->
+      <div class="navbar-wagon-right">
+        <a href="" class="navbar-wagon-item navbar-wagon-link"><%= link_to('+ Add new article', 'articles/new') %></a>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
